@@ -2,14 +2,211 @@
 # TimeRanks by luca28pet
 # Example of rank set-up below
 # 1 group needs to be the default one!
-
-DefaultRank:
+NewRank:
   default: true
-  pureperms_group: Default
-ExampleRank:
-  minutes: 20
-  pureperms_group: Example
-  message: "You are now rank ExampleRank"
+  pureperms_group: New
+ShyRank:
+  minutes: 5
+  pureperms_group: Shy
+  message: "You are now rank Shy"
   commands:
-  - "tell {player} You ranked up!"
+  - "tell {player} You ranked up to Shy rank!"
+RegisteredRank:
+  minutes: 10
+  pureperms_group: Registered
+  message: "You are now rank Registered"
+  commands:
+  - "tell {player} You ranked up to Registered rank!"
+ActiveRank:
+  minutes: 20
+  pureperms_group: Active
+  message: "You are now rank Active"
+  commands:
+  - "tell {player} You ranked up to Active rank!"
+QuiteActive:
+  minutes: 30
+  pureperms_group: QuiteActive
+  message: "You are now rank QuiteActive"
+  commands:
+  - "tell {player} You ranked up to QuiteActive rank!"
+VeryActive:
+  minutes: 50
+  pureperms_group: VeryActive
+  message: "You are now rank VeryActive"
+  commands:
+  - "tell {player} You ranked up to VeryActive rank!"
+DecentRank:
+  minutes: 80
+  pureperms_group: Decent
+  message: "You are now rank Decent"
+  commands:
+  - "tell {player} You ranked up to Decent rank!"
+QuiteDecentRank:
+  minutes: 100
+  pureperms_group: QuiteDecent
+  message: "You are now rank QuiteDecent"
+  commands:
+  - "tell {player} You ranked up to QuiteDecent rank!"
+VeryDecentRank:
+  minutes: 130
+  pureperms_group: VeryDecent
+  message: "You are now rank VeryDecent"
+  commands:
+  - "tell {player} You ranked up to VeryDecent rank!"
+GoodRank:
+  minutes: 140
+  pureperms_group: Good
+  message: "You are now rank Good"
+  commands:
+  - "tell {player} You ranked up to Good rank!"
+GreatRank:
+  minutes: 150
+  pureperms_group: Great
+  message: "You are now rank Great"
+  commands:
+  - "tell {player} You ranked up to Great rank!"
+AddictedRank:
+  minutes: 200
+  pureperms_group: Addicted
+  message: "You are now rank Addicted"
+  commands:
+  - "tell {player} You ranked up to Addicted rank!"
+QuiteAddictedRank:
+  minutes: 230
+  pureperms_group: QuiteAddicted
+  message: "You are now rank QuiteAddicted"
+  commands:
+  - "tell {player} You ranked up to QuiteAddicted rank!"
+VeryAddictedRank:
+  minutes: 260
+  pureperms_group: VeryAddicted
+  message: "You are now rank VeryAddicted"
+  commands:
+  - "tell {player} You ranked up to VeryAddicted rank!"
+AwesomeRank:
+  minutes: 280
+  pureperms_group: Awesome
+  message: "You are now rank Awesome"
+  commands:
+  - "tell {player} You ranked up to Awesome rank!"
+QuiteGoodRank:
+  minutes: 300
+  pureperms_group: QuiteGood
+  message: "You are now rank QuiteGood"
+  commands:
+  - "tell {player} You ranked up to QuiteGood rank!"
+VeryGoodRank:
+  minutes: 350
+  pureperms_group: VeryGood
+  message: "You are now rank VeryGood"
+  commands:
+  - "tell {player} You ranked up to VeryGood rank!"
+QuiteGreatRank:
+  minutes: 500
+  pureperms_group: QuiteGreat
+  message: "You are now rank QuiteGreat"
+  commands:
+  - "tell {player} You ranked up to QuiteGreat rank!"
+VeryGreatRank:
+  minutes: 600
+  pureperms_group: VeryGreat
+  message: "You are now rank VeryGreat"
+  commands:
+  - "tell {player} You ranked up to VeryGreat rank!"
+NiceRank:
+  minutes: 900
+  pureperms_group: Nice
+  message: "You are now rank Nice"
+  commands:
+  - "tell {player} You ranked up to Nice rank!"
+QuiteNiceRank:
+  minutes: 950
+  pureperms_group: QuiteNice
+  message: "You are now rank QuiteNice"
+  commands:
+  - "tell {player} You ranked up to QuiteNice rank!"
+VeryNiceRank:
+  minutes: 1000
+  pureperms_group: VeryNice
+  message: "You are now rank VeryNice"
+  commands:
+  - "tell {player} You ranked up to VeryNice rank!"
+TryHardRank:
+  minutes: 2500
+  pureperms_group: TryHard
+  message: "You are now rank TryHard"
+  commands:
+  - "tell {player} You ranked up to TryHard rank!"
+PvPGodRank:
+  minutes: 4900
+  pureperms_group: PvPGod
+  message: "You are now rank PvPGod"
+  commands:
+  - "tell {player} You ranked up to PvPGod rank!"
+OverPoweredRank:
+  minutes: 6000
+  pureperms_group: OverPowered
+  message: "You are now rank OverPowered"
+  commands:
+  - "tell {player} You ranked up to OverPowered rank!"
+ProRank:
+  minutes: 6500
+  pureperms_group: Pro
+  message: "You are now rank Pro"
+  commands:
+  - "tell {player} You ranked up to Pro rank!"
+OGRank:
+  minutes: 10000
+  pureperms_group: OG
+  message: "You are now rank OG"
+  commands:
+  - "tell {player} You ranked up to OG rank!"
+QuiteOverPoweredRank:
+  minutes: 11000
+  pureperms_group: QuiteOverPowered
+  message: "You are now rank QuiteOverPowered"
+  commands:
+  - "tell {player} You ranked up to QuiteOverPowered rank!"
+VeryOverPoweredRank:
+  minutes: 12000
+  pureperms_group: VeryOverPowered
+  message: "You are now rank VeryOverPowered"
+  commands:
+  - "tell {player} You ranked up to VeryOverPowered rank!"
+QuiteOGRank:
+  minutes: 15000
+  pureperms_group: QuiteOG
+  message: "You are now rank QuiteOG"
+  commands:
+  - "tell {player} You ranked up to QuiteOG rank!"
+VeryOGRank:
+  minutes: 18000
+  pureperms_group: VeryOG
+  message: "You are now rank VeryOG"
+  commands:
+  - "tell {player} You ranked up to VeryOG rank!"
+OldPlayerRank:
+  minutes: 23000
+  pureperms_group: OldPlayer
+  message: "You are now rank OldPlayer"
+  commands:
+  - "tell {player} You ranked up to OldPlayer rank!"
+OlderPlayerRank:
+  minutes: 28000
+  pureperms_group: OlderPlayer
+  message: "You are now rank OlderPlayer"
+  commands:
+  - "tell {player} You ranked up to OlderPlayer rank!"
+RankedPlayerRank:
+  minutes: 35000
+  pureperms_group: RankedPlayer
+  message: "You are now rank RankedPlayer"
+  commands:
+  - "tell {player} You ranked up to RankedPlayer rank!"
+OldestPlayerRank:
+  minutes: 50000
+  pureperms_group: OldestPlayer
+  message: "You are now rank OldestPlayer"
+  commands:
+  - "tell {player} You ranked up to OldestPlayer rank! You're at your maximum rank!"
 ...
